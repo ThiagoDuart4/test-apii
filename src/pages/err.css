@@ -26,14 +26,7 @@ left: 1100px;
 top: 0px;
 }
 
-img{
-  width:300px;
-  position: absolute;
-  left: 800px;
-  top: 215px;
-  animation: go-back 1s infinite alternate;
 
-}
 
 @keyframes go-back {
   from {
@@ -45,9 +38,6 @@ img{
 
 }
 
-img:hover{
-  transform: translate();
-}
 
 .text-notFound{
   width: 720px;

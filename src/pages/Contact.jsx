@@ -6,7 +6,7 @@ const Contact = () => {
   const [post,setPost]= useState();
   useEffect(()=>{
     api
-    .delete("https://test-api-fawn.vercel.app/filmes/31")
+    .delete("https://test-api-fawn.vercel.app/filmes/33")
     .then((response)=>{
       setPost(response.data);
     });

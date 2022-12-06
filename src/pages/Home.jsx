@@ -17,7 +17,8 @@ const Home = () => {
       "direção": "Ação, Suspense",
       "roteiro": "Joe Russo",
       "elenco": "Chris Hemsworth, Rudhraksh Jaiswal, Randeep Hooda",
-      "Sinopse": "Em Resgate, Tyler Rake (Chris Hemsworth) um agente especial recebe a difícil missão de libertar um garoto indiano que é mantido refém na cidade de Dhaka. Apesar de estar preparado fisicamente, ele precisa lidar com crises de identidade e com seu emocional fragilizado por problemas do passado para que consiga designar sua tarefa da melhor maneira possível."
+      "image":"https://br.web.img2.acsta.net/c_310_420/pictures/20/03/30/17/23/0866109.jpg",
+      "sinopse": "Em Resgate, Tyler Rake (Chris Hemsworth) um agente especial recebe a difícil missão de libertar um garoto indiano que é mantido refém na cidade de Dhaka. Apesar de estar preparado fisicamente, ele precisa lidar com crises de identidade e com seu emocional fragilizado por problemas do passado para que consiga designar sua tarefa da melhor maneira possível."
     },)
       .then((response) => setPost(response.data))
       .catch((err) => {
