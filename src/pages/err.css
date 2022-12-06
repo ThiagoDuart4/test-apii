@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@900&display=swap');
+
+body{
+
+background-color:white;
+
+}
+.nav{
+
+}
+.titulos h1{
+    color: #fed00b;
+    font-size: 20em;
+    font-family: 'Alfa Slab One', cursive;
+    position: absolute;
+  left: 580px;
+  top: 50px;
+}
+
+.titulos h2{
+  color: #fed00b ;
+  font-size: 20em;
+  font-family: 'Alfa Slab One', cursive;
+  position: absolute;
+left: 1100px;
+top: 0px;
+}
+
+img{
+  width:300px;
+  position: absolute;
+  left: 800px;
+  top: 215px;
+  animation: go-back 1s infinite alternate;
+
+}
+
+@keyframes go-back {
+  from {
+    transform: translatey(0);
+  }
+  to {
+    transform: translatey(100px);
+  }
+
+}
+
+img:hover{
+  transform: translate();
+}
+
+.text-notFound{
+  width: 720px;
+ 
+  position: absolute;
+  top: 650px;
+  left: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-notFound h2{
+  font-size: 2em;
+color: black;
+letter-spacing: 2px;
+font-weight: bold;
+}
+
+.text-notFound p{
+  font-size: 1.2em;
+  color: #d8b30c;
+}
+
+.text-notFound button{
+  padding:15px;
+  border: none;
+  background-color: #fed00b ;
+  font-size: 1em;
+  font-weight: 800;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.text-notFound button:hover{
+  opacity: 0.8;
+  transition: 0.4s;
+}
+
+@media (max-width: 412px){
+
+  .titulos h1{
+    position:absolute ;
+    left: 50px;
+    top: 120px;
+    font-size: 8em;
+  }
+  .titulos h2{
+    position:absolute ;
+    left: 280px;
+    top: 100px;
+    font-size: 8em;
+  }
+
+  img{
+    width: 120px;
+    top: 140px;
+    left: 150px;
+  }
+
+  .text-notFound{
+ left: 5px;
+ top: 400px;
+  width: 412px
+  ;
+  }
+}
