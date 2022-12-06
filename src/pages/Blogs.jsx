@@ -22,8 +22,15 @@ const Blogs = () => {
 
       <div className="filmes">
         {
-          console.log(post)
+        post.map((post,key)=>{
+          return(
+           <div className="filme" key={key}>
+            <p>{post.filme}</p>
+            <p>{post.ano}</p>
           
+           </div>
+          )
+        })
           }
       </div>
  
